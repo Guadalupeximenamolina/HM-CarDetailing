@@ -1,0 +1,142 @@
+footer img {
+  align-items: center;
+  width: 80px;
+  height: 70px;
+  flex: 1;
+  padding: 1rem;
+  margin: 1px;
+}
+
+.trabj {
+  text-align: center;
+  padding: 20px;
+}
+
+.trabajos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .trabajos {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 50vh repeat(2, 45vh);
+  }
+}
+@media (min-width: 1200px) {
+  .trabajos {
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: repeat(2, 35vh);
+  }
+}
+.trabajos__t {
+  width: 70%;
+  height: 50vh;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trabajos__t--img-1 {
+  background-image: url(../asset/autoporsch.jpg);
+  background-size: cover;
+}
+.trabajos__t--img-2 {
+  background-image: url(../asset/pulidoaut.jpg);
+  background-size: cover;
+}
+.trabajos__t--img-3 {
+  background-image: url(../asset/opticass.webp);
+  background-size: cover;
+}
+.trabajos__t--img-4 {
+  background-image: url(../asset/intauto.jpg);
+  background-size: cover;
+}
+.trabajos__t--img-5 {
+  background-image: url(../asset/autoint2.jpg);
+  background-size: cover;
+}
+
+.contacto {
+  background-color: dimgray;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.textform {
+  text-align: center;
+  margin: 0%;
+  font-size: xx-large;
+  margin-bottom: 20px;
+  font-family: Racing Sans One, cursive;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background-color: black;
+  color: grey;
+  font-family: Racing Sans One, cursive;
+  padding: 10px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  color: blue;
+  font-family: Racing Sans One, cursive;
+  font-size: x-large;
+  text-align: center;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: x-large;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: medium;
+}
+
+body {
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=main.css.map */
